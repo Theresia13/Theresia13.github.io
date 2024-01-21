@@ -40,7 +40,6 @@ body {
   flex-wrap: wrap;
 }
 
-
 .side {
   -ms-flex: 30%;
   flex: 30%;
@@ -83,6 +82,15 @@ a:active {
   padding: 10px;
 }
 
+.picrow {
+  display: flex;
+}
+
+
+.piccolumn {
+  flex: 25%;
+  padding: 30px;
+}
 
 @media screen and (max-width: 700px) {
   .row {   
@@ -106,7 +114,7 @@ a:active {
   <div class="row">
     <div class="side">
       <div>
-        <img src="https://github.com/Theresia13/Theresia13.github.io/blob/main/Lerato.jpg?raw=true" width="250px"
+        <img src="Lerato.jpg" width="250px"
           height="325px" />
       </div>
       <h2>Contact Me</h2>
@@ -116,6 +124,8 @@ a:active {
         <a href="https://www.linkedin.com/in/theresia-likhama-979022170"><u>LinkedIn</u></a>
       </p>
       <p><a href="https://www.github.com/theresia13"><u>Github Account</u></a></p>
+      <br>
+
     </div>
     <div class="main">
       <h2>About Me</h2>
@@ -134,28 +144,33 @@ a:active {
       <div class="divider" style="height: 5px"></div>
       <br />
       <h2>Work Experience</h2>
-      <p><b>I have worked at:</b></p>
-      <ul>
-        <li>
-          Kgomoco Primary School as an Education Assistant for 1 year 7
-          months.
-        </li>
-      </ul>
-      <ul>
-        <li>
-          Advanced People & Projects as a Field Service Engineer for 8 months.
-        </li>
-      </ul>
-      <ul>
-        <li>BWW South Africa as a Project Assistant for 1 year 1 month.</li>
-      </ul>
-      <ul>
-        <li>
-          Redwill ICT as an Intern in the System Development department for 1
-          year.
-        </li>
-      </ul>
-      <br />
+      <p><b>Companies I've worked for:</b></p>
+      <div class="picrow">
+        <div class="piccolumn">
+          <img src="Redwill-ICT-Logo.png" alt="Redwill-ICT-Logo" style="width:50%">
+          <p>Redwill ICT as an Intern in the System Development department for 1
+            year.</p>
+          
+        </div>
+        <div class="piccolumn">
+          <img src="app.jpeg" alt="Advanced People & Projects logo" style="width:50%">
+          <p> Advanced People & Projects as a Field Service Engineer for 8 months.</p>
+          
+        </div>
+
+        
+      </div>
+      <div class="picrow">
+        <div class="piccolumn">
+          <img src="bmw.jpeg" alt="BMW Logo" style="width:30%">
+          <p>BMW South Africa as a Project Assistant for 1 year 1 month</p>
+      </div>  
+        <div class="piccolumn">
+          <img src="GDE.png" alt="GDE logo" style="width:50%">
+          <p>Kgomoco Primary School as an Education Assistant for 1 year 7
+            months.</p>
+        </div>
+      </div>
       <div class="divider" style="height: 5px"></div>
       <h2>My skills</h2>
       <p>My skills include:</p>
@@ -180,6 +195,8 @@ a:active {
       <ul>
         HTML & CSS
       </ul>
+     
+
     </div>
   </div>
 </body>
