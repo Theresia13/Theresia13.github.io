@@ -136,6 +136,53 @@ a:active {
   padding: 30px;
 }
 
+footer {
+  background-color: #1b1a1a;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.footer-content h2 {
+  margin-top: 0;
+  font-size: 1.8rem;
+}
+
+.footer-content p {
+  margin: 0.5rem 0;
+}
+
+.footer-content a {
+  color: #00bfff;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+.footer-content a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.footer-icons {
+  margin-top: 1rem;
+}
+
+.footer-icons a {
+  display: inline-block;
+  margin: 0 0.5rem;
+}
+
+.footer-icons img {
+  width: 65px;
+  height: 65px;
+  filter: brightness(0) invert(1); /* makes dark logos white on dark bg */
+  transition: transform 0.3s ease;
+}
+
+.footer-icons img:hover {
+  transform: scale(1.1);
+}
+
 @media screen and (max-width: 700px) {
   .row {
     flex-direction: column;
